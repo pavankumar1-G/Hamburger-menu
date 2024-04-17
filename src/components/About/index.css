@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.about-lg-img {
+  display: none;
+}
+.about-conatiner {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.about-img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.about-sm-img {
+  width: 80%;
+  max-width: 450px;
+}
+@media screen and (min-width: 768px) {
+  .about-lg-img {
+    display: inline;
+    min-width: 1200px;
+    width: 100%;
+  }
+  .about-sm-img {
+    display: none;
+  }
+}
